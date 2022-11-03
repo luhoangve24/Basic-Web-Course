@@ -1,0 +1,17 @@
+li {
+    font-size: 10px;
+}
+p {
+    font-size: 13px;
+    font-weight: normal;
+}
+a:link {
+    color: #0000FF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited{
+    color: #9D3B9D;
+    background-color: transparent;
+    text-decoration: underline;
+}
