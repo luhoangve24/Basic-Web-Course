@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Bài tập HTML & CSS</title>
+    </head>
+    <body>
+        <h1 style="font-size: 40;color: #000099;">
+            Thông tin sinh viên
+        </h1>
+        <form name="student_form" method="get" action="/xuly.php">
+            <label for="tensv">Ten sinh vien</label>
+            <input type="text" id="tensv" name="ten_sinh_vien"><br>
+            <label for="bd">Ngay sinh</label>
+            <input type="text" id="bd" name="ngay_sinh"><br>
+            <p>Gioi tinh</p>
+            <label for="male">Nam</label>
+            <input type="radio" name="gioi_tinh">
+            <label for="female">Nu</label>
+            <input type="radio" name="gioi_tinh"><br>
+            <span>Lop</span>
+            <input list="class" title="Lop">
+            <datalist id="class">
+                <option value="K17A">
+                <option value="17B">
+                <option value="18A">
+                <option value="18B">
+                <option value="K18C">
+            </datalist><br>
+            <span>La thanh vien cua:</span>
+            <label for="BIT">BIT</label>
+            <input type="checkbox" name="org">
+            <label for="LCH">LCH</label>
+            <input type="checkbox" name="org"><br>
+            <label for="char">Tinh cach</label>
+            <input type="textarea" name="tinh cach">
+            <input type="submit" value="Xac nhan">
+            <input type="reset" value="Nhap lai">
+        </form>
+    </body>
+</html>

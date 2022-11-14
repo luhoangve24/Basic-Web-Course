@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="sdt"></p>
+        <script>
+            var sdt = "091 878 2927";
+            var sdt1 = sdt.replace(/ /g,''); // g stands for global;
+            document.getElementById("sdt").innerHTML = sdt1;
+            var len = sdt1.length;
+            if (len==10)
+            {
+                sdt2 = "******"+sdt1.slice(6,10);
+            }
+            else
+            {
+                sdt2 = "*******"+sdt1.slice(7,11);
+            }
+            alert("Tin nhan da duoc gui den so dien thoai "+sdt2);
+        </script>
+    </body>
+</html>
